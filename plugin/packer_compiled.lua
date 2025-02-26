@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["Comment.nvim"] = {
+    loaded = true,
+    path = "/Users/nicholasmalmquist/.local/share/nvim/site/pack/packer/start/Comment.nvim",
+    url = "https://github.com/numToStr/Comment.nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/Users/nicholasmalmquist/.local/share/nvim/site/pack/packer/start/lualine.nvim",
@@ -114,10 +119,20 @@ _G.packer_plugins = {
     path = "/Users/nicholasmalmquist/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   },
+  ["vim-maximizer"] = {
+    loaded = true,
+    path = "/Users/nicholasmalmquist/.local/share/nvim/site/pack/packer/start/vim-maximizer",
+    url = "https://github.com/szw/vim-maximizer"
+  },
   ["vim-nightfly-guicolors"] = {
     loaded = true,
     path = "/Users/nicholasmalmquist/.local/share/nvim/site/pack/packer/start/vim-nightfly-guicolors",
     url = "https://github.com/bluz71/vim-nightfly-guicolors"
+  },
+  ["vim-tmux-navigator"] = {
+    loaded = true,
+    path = "/Users/nicholasmalmquist/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
+    url = "https://github.com/christoomey/vim-tmux-navigator"
   }
 }
 

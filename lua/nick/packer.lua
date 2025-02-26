@@ -17,4 +17,7 @@ return require('packer').startup(function(use)
   use("nvim-lualine/lualine.nvim")
   use('nvim-treesitter/nvim-treesitter', {run =  ':TSUpdate'})
   use("tpope/vim-fugitive")
+  use("numToStr/Comment.nvim") -- use 'gc' to group comment
+  use("christoomey/vim-tmux-navigator") -- tmux
+  use("szw/vim-maximizer") -- maximize windows  
 end)
